@@ -35,7 +35,7 @@ Advisor: Prof. Wonjun Lee
 `
     },
     {
-      title: '9th Best of Best at Korea Information Technology Research Institute (KITRI), Vulnerability Analysis Track',
+      title: '9th Best of Best at Korea Information Technology Research Institute (KITRI)',
       period: 'Jul. 2020 - Mar. 2021',
       contents: `
 Research topic: Client-Side Attack on Live Streaming Services Using Grid computing
