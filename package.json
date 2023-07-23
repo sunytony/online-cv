@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sneas/cv-project.git"
+    "url": "git+https://github.com/sunytony/online-cv.git"
   },
   "keywords": [
     "cv",
@@ -22,11 +22,12 @@
   "bugs": {
     "url": "https://github.com/sneas/cv-project/issues"
   },
-  "homepage": "https://github.com/sneas/cv-project#readme",
+  "homepage": "https://sunytony.github.io/online-cv",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "dayjs": "^1.11.4",
     "fs-extra": "^10.1.0",
+    "gh-pages": "^5.0.0",
     "git-repo-name": "^1.0.1",
     "git-username": "^1.0.0",
     "handlebars": "^4.7.7",
@@ -35,5 +36,10 @@
     "puppeteer": "^16.1.0",
     "speakingurl": "^14.0.1",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.7",
+    "encoding": "^0.1.13",
+    "utf-8-validate": "^5.0.10"
   }
 }

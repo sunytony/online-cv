@@ -1,67 +1,88 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Seungmin Yoon',
+  title: '윤승민',
+  updated: 'June 23, 2023',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Github': `<a href="https://github.com/sunytony"></i>Github</a>`,
+    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>smyoon99@korea.ac.kr</a>'
   },
-  skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
-  ],
-  positions: [
+  // skills: [
+  //   ['Comedy', 100],
+  //   ['Love', 100],
+  //   ['Theater', 100],
+  //   ['Tragedy', 100],
+  //   ['Poetry', 100],
+  //   ['Erotic', 75],
+  //   ['Sonnets', 100],
+  //   ['Plays', 100],
+  //   ['Writing', 100],
+  //   ['Directing', 75],
+  //   ['Literature', 100],
+  //   ['Influence', 100],
+  // ],
+  experience: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'Cyber Operations Command, Republic of Korea Armed Forces',
+      period: 'Aug. 2022 - Present',
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'Research Intern in Network and Security Research lab, Korea University',
+      period: 'Mar. 2021 - Mar. 2022',
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+Advisor: Prof. Wonjun Lee
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: '9th Best of Best at Korea Information Technology Research Institute (KITRI), Vulnerability Analysis Track',
+      period: 'Jul. 2020 - Mar. 2021',
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
+Research topic: Client-Side Attack on Live Streaming Services Using Grid computing
 `
     }
   ],
-  experience: [
+  publication: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'Modulation Agnostic RF Fingerprinting for Physical Layer Device Verification(물리 계층 디바이스 검증을 위한 변조 방식에 무관한 RF Fingerprinting 기법 연구)',
+      skills: ['Wireless', 'Security', 'RF fingerprinting'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+Seungmin Yoon, Sunjae Kim, and Wonjun Lee, Modulation Agnostic RF Fingerprinting for Physical Layer Device Verification(물리 계층 디바이스 검증을 위한 변조 방식에 무관한 RF Fingerprinting 기법 연구), in Proc. of KIISE Korea Computer Congress 2023 (KIISE KCC 2023), Jeju, Republic of Korea, June 2023
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: 'Client-Side Attack on Live-Streaming Services Using Grid Computing',
+      skills: ['Security', 'Live Streaming'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+Suhwan Myeong, Sunhong Hwang, Seungmin yoon, Taisic Yun, and Taiho Kim, "Client-Side Attack on Live-Streaming Services Using Grid Computing", in Proc. of Hack In The Box Security Conference 2021 (HITBSecConf2021-Amsterdam), virtual, May 2021
+`
+    },
+    {
+      header: '그리드 컴퓨팅 기반 실시간 스트리밍 서비스의 보안 위험성 탐구',
+      skills: ['Security', 'Live Streaming'],
+      contents: `
+Taiho Kim, Taisic Yun, Seungmin yoon, Suhwan Myeong, Sunhong Hwang, and Sangjin Lee, "그리드 컴퓨팅 기반 실시간 스트리밍 서비스의 보안 위험성 탐구", in Proc. of KIISC Conference on Information Security and Cryptography-Winter 2020 (KIISC CISC-W'20), Nov 2020
+`
+    }
+  ],
+  education: [
+    {
+      title: 'Ph.D. in Cybersecurity, School of Cybersecurity, Korea University',
+      period: 'Sep. 2023 - Present',
+      contents: `
+Advisor: Prof. Wonjun Lee
+`
+    },
+    {
+      title: 'B.E. in Dept. of Cyber Defense, Division of Information Security, Korea University',
+      period: 'Mar. 2018 - Feb. 2022',
+      contents: `
+`
+    },
+    {
+      title: 'Daejeon Science High School',
+      period: 'Mar. 2015 - Feb. 2018',
+      contents: `
 `
     }
   ]
