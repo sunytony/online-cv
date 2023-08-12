@@ -67,7 +67,7 @@ Taiho Kim, Taisic Yun, Seungmin yoon, Suhwan Myeong, Sunhong Hwang, and Sangjin 
   ],
   education: [
     {
-      title: 'Ph.D. in Cybersecurity, School of Cybersecurity, Korea University',
+      title: 'Ph.D. Student in Cybersecurity, School of Cybersecurity, Korea University',
       period: 'Sep. 2023 - Present',
       contents: `
 Advisor: Prof. Wonjun Lee
